@@ -1,14 +1,15 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Programming Assignment 2
+## Caching the Inverse of a Matrix
 
-## Write a short comment describing this function
+## Creates a special "matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 
 }
 
 
-## Write a short comment describing this function
+## computes the inverse of the special "matrix" returned by makeCacheMatrix 
+## If the inverse has already been calculated, then retrieve the inverse from the cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
